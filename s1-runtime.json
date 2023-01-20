@@ -1,0 +1,17 @@
+{
+  "target": "bmv2",
+  "p4info": "build/ID_125360.p4.p4info.txt",
+  "bmv2_json": "build/ID_125360.json",
+  "table_entries": [ 
+  	{
+  		"table": "MyIngress.P_forward",
+  		"default_action": true,
+  		"action_name": "MyIngress.drop",
+  		"action_params": { }
+  	
+  	}
+  	
+  
+  
+  ]
+}

@@ -1,0 +1,7 @@
+table_add MyIngress.P_forward MyIngress.PK_Modification 10.0.0.11 10.0.0.22 5000 80 => 00:00:00:00:00:33 10.0.0.33 3 
+
+table_add MyIngress.P_forward MyIngress.PK_Modification 10.0.0.33 10.0.0.22 80 5000 => 00:00:00:00:00:11 10.0.0.11 1 
+
+table_add MyIngress.P_forward MyIngress.PK_Modification 10.0.0.11 10.0.0.22 5001 80 => 00:00:00:00:00:44 10.0.0.44 4 
+
+table_add MyIngress.P_forward MyIngress.PK_Modification 10.0.0.44 10.0.0.22 80 5001 => 00:00:00:00:00:11 10.0.0.11 1 
